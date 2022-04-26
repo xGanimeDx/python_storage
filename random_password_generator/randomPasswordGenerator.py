@@ -4,7 +4,7 @@ lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 number = "0123456789"
 # TODO: Investigate best value for variable symbol
-symbol = "!@#$%^&*()"
+symbol = "!@#$%^*(){}[]?"
 
 all = lower + upper + number + symbol
 # TODO: Add validation for the input
