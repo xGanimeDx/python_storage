@@ -4,7 +4,7 @@ data = open('python_bootcamp/section_17_csv_pdf/example.csv', encoding='utf-8')
 csv_data = csv.reader(data)
 data_lines = list(csv_data)
 
-for line in data_lines[:5]:
+for line in data_lines[:6]:
     print(line)
 
 all_emails = []
