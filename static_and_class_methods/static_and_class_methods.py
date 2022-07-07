@@ -1,6 +1,3 @@
-from tokenize import PseudoExtras
-
-
 class person():
     population = 50
     def __init__(self, name, age):
